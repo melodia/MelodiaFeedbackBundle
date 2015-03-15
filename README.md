@@ -87,7 +87,7 @@ Step 4: Import API router
 ```yaml
 # app/config/routing.yml
 
-melodia_page_api_:
+melodia_feedback_api:
     resource: "@MelodiaFeedbackBundle/Resources/config/routing/api.yml"
     prefix:   /api
 ```
