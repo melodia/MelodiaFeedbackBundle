@@ -1,0 +1,14 @@
+Melodia\FeedbackBundle\Model\Feedback:
+    properties:
+        subject:
+            - Length:
+                max: 255
+                groups: [basic_feedback]
+        email:
+            - NotBlank:
+                groups: [basic_feedback]
+            - Email:
+                groups: [basic_feedback]
+        message:
+            - NotBlank:
+                groups: [basic_feedback]

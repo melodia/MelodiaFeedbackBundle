@@ -1,0 +1,10 @@
+parameters:
+    melodia_feedback.entity.class: ~ # must be set by user
+    melodia_feedback.form.class: Melodia\FeedbackBundle\Form\Type\FeedbackFormType
+
+services:
+    melodia_feedback_form:
+        class: %melodia_feedback.form.class%
+        arguments: [%melodia_feedback.entity.class%]
+        tags:
+            - { name: form.type }

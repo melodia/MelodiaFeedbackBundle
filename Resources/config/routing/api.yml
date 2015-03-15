@@ -1,0 +1,3 @@
+melodia_feedback_api_:
+    type:     rest
+    resource: Melodia\FeedbackBundle\Controller\Api\FeedbackController

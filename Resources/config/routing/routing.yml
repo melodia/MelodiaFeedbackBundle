@@ -1,0 +1,3 @@
+melodia_feedback:
+    pattern:  /feedback
+    defaults: { _controller: MelodiaFeedbackBundle:Feedback:index }
