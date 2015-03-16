@@ -12,7 +12,6 @@
     }
   ],
   "require": {
-    "sonata-project/block-bundle": "2.2.*",
     "friendsofsymfony/rest-bundle": "~1.4",
     "nelmio/api-doc-bundle": "~2.7",
     "stof/doctrine-extensions-bundle": "~1.1"
