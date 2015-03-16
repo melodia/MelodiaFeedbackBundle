@@ -1,0 +1,28 @@
+{
+  "name": "melodia/feedback-bundle",
+  "type": "symfony-bundle",
+  "description": "",
+  "license": "MIT",
+  "keywords": ["feedback"],
+  "homepage": "http://github.com/melodia/MelodiaFeedbackBundle",
+  "authors": [
+    {
+      "name": "Alexey Ryzhkov",
+      "email": "alioch@yandex.ru"
+    }
+  ],
+  "require": {
+    "sonata-project/block-bundle": "2.2.*",
+    "friendsofsymfony/rest-bundle": "~1.4",
+    "nelmio/api-doc-bundle": "~2.7",
+    "stof/doctrine-extensions-bundle": "~1.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "Melodia\\FeedbackBundle": ""
+    }
+  },
+  "minimum-stability": "stable",
+  "target-dir": "Melodia/FeedbackBundle"
+}
+
